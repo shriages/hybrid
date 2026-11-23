@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid_bo"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pytest",
+    "scikit-learn",
+    "openai",
+    "anthropic",
+    "tiktoken",
+    "python-dotenv",
+    "POT",
+    "pandas",
+    "joblib",
+    "matplotlib",
+    "seaborn",
+    "jinja2",
+    "modal",
+    "notebook",
+    "bayesmark",
+    "yahpo-gym",
+    "optuna",
+    "anthropic",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
