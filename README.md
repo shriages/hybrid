@@ -1,4 +1,4 @@
-# HybridBO — Reproducibility Supplement
+# HybridBO
 
 This archive contains the source code and figure/table scripts for the paper's
 experiments. It lets a reviewer (a) read exactly what the method does, (b) run
